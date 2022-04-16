@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact name="SparkJava:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SparkJava_jar</output-path>
+    <root id="root">
+      <element id="archive" name="SparkJava.jar">
+        <element id="module-output" name="SparkJava" />
+      </element>
+      <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
+      <element id="library" level="project" name="Maven: org.apache.orc:orc-mapreduce:nohive:1.4.1" />
+      <element id="library" level="project" name="Maven: org.apache.hadoop:hadoop-mapreduce-client-core:2.6.5" />
+      <element id="library" level="project" name="Maven: org.objenesis:objenesis:2.1" />
+      <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
+      <element id="library" level="project" name="Maven: com.esotericsoftware:kryo-shaded:3.0.3" />
+      <element id="library" level="project" name="Maven: com.github.scopt:scopt_2.11:3.7.0" />
+      <element id="library" level="project" name="Maven: org.apache.orc:orc-core:nohive:1.4.1" />
+      <element id="library" level="project" name="Maven: io.airlift:aircompressor:0.8" />
+      <element id="library" level="project" name="Maven: com.esotericsoftware:minlog:1.3.0" />
+    </root>
+  </artifact>
+</component>

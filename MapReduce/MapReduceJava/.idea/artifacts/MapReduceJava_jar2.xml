@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MapReduceJava:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/MapReduceJava_jar2</output-path>
+    <root id="archive" name="MapReduceJava.jar">
+      <element id="module-output" name="MapReduceJava" />
+      <element id="library" level="project" name="libs" />
+    </root>
+  </artifact>
+</component>

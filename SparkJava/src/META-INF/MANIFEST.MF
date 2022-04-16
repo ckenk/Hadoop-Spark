@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: WorstMovieSpark
+Class-Path: commons-codec-1.10.jar orc-mapreduce-1.4.1-nohive.jar hadoop
+ -mapreduce-client-core-2.6.5.jar objenesis-2.1.jar commons-lang-2.6.jar
+  kryo-shaded-3.0.3.jar scopt_2.11-3.7.0.jar orc-core-1.4.1-nohive.jar a
+ ircompressor-0.8.jar minlog-1.3.0.jar
+
