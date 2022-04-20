@@ -19,12 +19,26 @@ import java.util.List;
 
 import static org.apache.spark.sql.functions.col;
 
+/**
+ *  https://phoenixnap.com/kb/rdd-vs-dataframe-vs-dataset
+ *
+ *  RDD: Resilient Distributed Dataset
+ *       Abstracted (mostly key and value) representation of data
+ *       - that can handle failures in a resilient manner.
+ *       - Distributed evenly across the cluster.
+ *       - Looks & feels like a SQL Data Set.
+ *
+ *  Spark Context: what makes Spark resilient and distributed,
+ *       - is the environment where the driver programs runs with.
+ *       - creates the RDDs for driver program
+ */
 public class LowestRatedMovieSpark2 {
 
     private static void runInferSchemaExample(SparkSession spark) {
         // Create an RDD of MovieRating objects from a text file
         JavaRDD<MovieRating> peopleRDD = spark.read()
-                .textFile("ml-100k/u.data")
+                //protocols supported: file:/// s3n://, hdfs://
+                .textFile("ml-100k/u.data") //other sources: JDBC/Cassandra/HBase/Elasticserach/JSON/CSV
                 .javaRDD()
                 .map(line -> {
                     String[] parts = line.split("\\t");
@@ -79,7 +93,7 @@ public class LowestRatedMovieSpark2 {
     public static void main(String[] args) throws AnalysisException {
         SparkSession spark = SparkSession
                 .builder()
-                .appName("Java Spark SQL example")
+                .appName("Java Spark 2 SQL example")
                 .config("spark.some.config.option", "some-value")
                 .getOrCreate();
 
