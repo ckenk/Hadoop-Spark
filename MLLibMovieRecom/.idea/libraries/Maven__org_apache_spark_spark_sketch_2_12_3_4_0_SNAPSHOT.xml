@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.spark:spark-sketch_2.12:3.4.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sketch_2.12/3.4.0-SNAPSHOT/spark-sketch_2.12-3.4.0-20220421.001253-35.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sketch_2.12/3.4.0-SNAPSHOT/spark-sketch_2.12-3.4.0-20220421.001253-35-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sketch_2.12/3.4.0-SNAPSHOT/spark-sketch_2.12-3.4.0-20220421.001253-35-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
