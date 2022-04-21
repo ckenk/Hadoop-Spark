@@ -36,7 +36,7 @@ public class LowestRatedMovieSpark2 {
 
     private static void runInferSchemaExample(SparkSession spark) {
         // Create an RDD of MovieRating objects from a text file
-        JavaRDD<MovieRating> peopleRDD = spark.read()
+        JavaRDD<MovieRating> ratingRDD = spark.read()
                 //protocols supported: file:/// s3n://, hdfs://
                 .textFile("ml-100k/u.data") //other sources: JDBC/Cassandra/HBase/Elasticserach/JSON/CSV
                 .javaRDD()
@@ -49,7 +49,7 @@ public class LowestRatedMovieSpark2 {
                 });
 
         // Apply a schema to an RDD of JavaBeans to get a DataFrame
-        Dataset<Row> ds_movieRating = spark.createDataFrame(peopleRDD, MovieRating.class);
+        Dataset<Row> ds_movieRating = spark.createDataFrame(ratingRDD, MovieRating.class);
         // Register the DataFrame as a temporary view
         ds_movieRating.createOrReplaceTempView("movie_rating");
 
