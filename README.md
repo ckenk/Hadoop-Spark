@@ -8,3 +8,5 @@ While following the [`The Ultimate Hands-On Hadoop: Tame your Big Data!`](https:
 - [`SparkJava`](./SparkJava) contains the Java based based Spark application. 
 - [`Spark2`](./Spark2) contains the Spark2 version of the application.
 - [`MLLibMovieRecom`](./MLLibMovieRecom) a MLLib session to recommend movies using Alternating Least Square (ALS) with Spark ML.
+
+Note: To create the final Jar file, each project has to be built with IntelliJ IDEA.
