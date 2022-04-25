@@ -1,4 +1,4 @@
-# Hadoop-Spark-Pig
+# Hadoop & Spark
 Some work with Hadoop, Spark2, Spark and Pig.<br/>
 Using `Hortonworks Sandbox HDP 2.6.5`<br/>
 While following a Hadoop/Spark course - as a better way to learn & understand, migrated the Python scripts to Java.<br/>
