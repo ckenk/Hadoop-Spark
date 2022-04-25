@@ -1,6 +1,6 @@
 # Hadoop & Spark
-Some work with Hadoop, Spark2, Spark and Pig.<br/>
-Using `Hortonworks Sandbox HDP 2.6.5`<br/>
+Some work with Hadoop, Spark & Spark2.<br/>
+Using `Hortonworks Sandbox HDP 2.6.5` and [MovieLense](https://grouplens.org/datasets/movielens/) data samples.<br/>
 While following a Hadoop/Spark course - as a better way to learn & understand, migrated the Python scripts to Java.<br/>
 
 - [`ml-100k`](./ml-100k) contains the data set.
