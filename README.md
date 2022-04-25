@@ -7,3 +7,4 @@ While following the [`The Ultimate Hands-On Hadoop: Tame your Big Data!`](https:
 - [`MapReduce`](./MapReduce) contains a Mapreduce scipt and Java application. 
 - [`SparkJava`](./SparkJava) contains the Java based based Spark application. 
 - [`Spark2`](./Spark2) contains the Spark2 version of the application.
+- [`MLLibMovieRecom`](./MLLibMovieRecom) a MLLib session to recommend movies using Alternating Least Square (ALS) with Spark ML.
